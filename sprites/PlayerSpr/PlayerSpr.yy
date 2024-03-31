@@ -3,7 +3,7 @@
   "%Name":"PlayerSpr",
   "bboxMode":2,
   "bbox_bottom":41,
-  "bbox_left":29,
+  "bbox_left":30,
   "bbox_right":33,
   "bbox_top":38,
   "collisionKind":1,

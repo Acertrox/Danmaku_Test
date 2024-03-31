@@ -1,13 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"PlayerObj",
+  "%Name":"HitboxObj",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"EnemyBullet","path":"objects/EnemyBullet/EnemyBullet.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"PlayerObj",
+  "name":"HitboxObj",
   "overriddenProperties":[],
   "parent":{
     "name":"Game",
@@ -32,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"PlayerSpr",
-    "path":"sprites/PlayerSpr/PlayerSpr.yy",
+    "name":"HitboxSpr",
+    "path":"sprites/HitboxSpr/HitboxSpr.yy",
   },
   "spriteMaskId":null,
   "visible":true,
