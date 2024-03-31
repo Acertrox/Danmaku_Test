@@ -5,5 +5,5 @@ initial_speed = 2;
 deadly=true
 dir = 1;
 death_timer = 480;
-image_xscale=1.5
-image_yscale=1.5
+image_xscale=2
+image_yscale=2

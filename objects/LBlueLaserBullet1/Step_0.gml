@@ -7,7 +7,7 @@ if (bullet_timer1 > 0) {
 } else if (bullet_timer2 > 0) {
 	bullet_timer2-=1;
 } else if (bullet_timer3 > 0){
-    if (image_yscale<1.5){
+    if (image_yscale<2){
 		deadly = true;
 		image_yscale+=0.1;
 	}

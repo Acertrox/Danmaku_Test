@@ -13,7 +13,10 @@
     "name":"Bullets",
     "path":"folders/Objects/Game/Bullets.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"EnemyBullet",
+    "path":"objects/EnemyBullet/EnemyBullet.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

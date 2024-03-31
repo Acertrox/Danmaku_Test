@@ -10,7 +10,7 @@ if (bullet_timer_1 > 0){
 	BlueBulletEmitter(x, y, 1, amount_bullets, offset)
 	bullet_repeater_1 = 12
 	repeater_amount = 5;
-	bullet_timer_1=480;
+	bullet_timer_1=440;
 }
 
 if (bullet_timer_2 > 0){
@@ -22,7 +22,7 @@ if (bullet_timer_2 > 0){
 	bullet_2_dir *= -1
 	bullet_repeater_2 = 30
 	repeater_amount_2 = 3;
-	bullet_timer_2=480;
+	bullet_timer_2=440;
 }
 
 if (bullet_timer_3 > 0){
@@ -30,7 +30,7 @@ if (bullet_timer_3 > 0){
 } else if (bullet_timer_3 == 0){
 	offset += 360/amount_bullets_3/2
 	BigRedBulletEmitter(x, y, 1, amount_bullets_3)
-	bullet_timer_3=480;
+	bullet_timer_3=440;
 }
 
 if (bullet_repeater_1 > 0){
