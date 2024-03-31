@@ -10,9 +10,9 @@ ver_speed = keyboard_check(global.down_key) - keyboard_check(global.up_key)
 diag = hor_speed != 0 && ver_speed != 0;
 
 if (keyboard_check(global.focus_key)){
-	actual_speed = 4;
+	actual_speed = 3;
 } else {
-	actual_speed = 8;
+	actual_speed = 6;
 }
 
 if (diag) {

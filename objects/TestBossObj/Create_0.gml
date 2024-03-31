@@ -8,3 +8,5 @@ created_bullet=undefined;
 amount_lasers=6;
 amount_bullets=28;
 offset = 0;
+
+depth = 30;

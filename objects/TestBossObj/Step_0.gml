@@ -3,7 +3,7 @@
 if (bullet_timer_1 > 0){
 	bullet_timer_1-=1;
 } else if (bullet_timer_1 == 0){
-	LaserBullet1Emitter(self, x, y, 1, amount_lasers)
+	LaserBullet1Emitter(self, x, y, 2, amount_lasers)
 	amount_lasers+=2;
 	offset = random(360)
 	bullet_type=false
