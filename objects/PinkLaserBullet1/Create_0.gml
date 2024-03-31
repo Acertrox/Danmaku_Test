@@ -8,5 +8,5 @@ dir=1
 deadly=false
 creator=self;
 
-image_xscale=23
+image_xscale=25
 image_yscale=0.2
